@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259481608744",
+    "project_id": "taxi-way-f3261",
+    "storage_bucket": "taxi-way-f3261.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259481608744:android:06af58cf323d5af8a40b1d",
+        "android_client_info": {
+          "package_name": "com.example.taxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259481608744-imf05ndb59gr2onplqljai76l7cl2755.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCUUfuNf5C4nX7nG-utc6EaTIvXSvWrFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259481608744-imf05ndb59gr2onplqljai76l7cl2755.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

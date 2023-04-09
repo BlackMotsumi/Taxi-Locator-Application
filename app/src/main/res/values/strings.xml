@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password? Click Here!</string>
+    <string name="Alternative_Login">Instead login using the following!</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="confirm_password">Confirm - Password</string>
+    <string name="contact">Contact</string>
+    <string name="Loginpassword">Password</string>
+    <string name="login_password">Login_password</string>
+    <string name="name">Name</string>
+    <string name="taxi_locator">TAXI LOCATOR</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="register">Register</string>
+    <string name="update">UPDATE</string>
+    <string name="change_profile">change profile</string>
+    <string name="logout">LOGOUT</string>
+    <string name="full_name">Full Name</string>
+    <string name="upload">Upload</string>
+    <string name="save">save</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="profile">PROFILE</string>
+    <string name="taxi_map">Taxi Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_location">my location</string>
+    <string name="Description">This is a map for taxi spots in Bloemfontein Click the button of choice to be navigated to taxi spot</string>
+    <string name="search_for_taxi_location">Search for taxi location</string>
+    <string name="key">AIzaSyAxofCBLYfJhZgjlcHhGwx9-Ytngxzir9s</string>
+    <string name="go">GO</string>
+</resources>

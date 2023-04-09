@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbg"
+    tools:context=".Update">
+
+    <TextView
+        android:id="@+id/tvSignUp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/profile"
+        android:textSize="14pt" />
+
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textAlignment="gravity"
+        android:textColorHint="#757575"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_person" />
+
+
+    <TextView
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:drawablePadding="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:hint="@string/email"
+        android:textSize="20sp"
+        android:textColorHint="#757575"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        app:drawableStartCompat="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/etContact"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/contact"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textColorHint="#757575"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/contact" />
+
+    <Button
+        android:id="@+id/btnEditPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/buttons"
+        android:text="@string/edit_profile"
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/buttons"
+        android:text="@string/logout"
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
+
+
+</LinearLayout>
